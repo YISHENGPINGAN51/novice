@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "每天一个绝交小游戏", "每天一个绝交小游戏\每天一个绝交小游戏.vcxproj", "{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Debug|x64.ActiveCfg = Debug|x64
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Debug|x64.Build.0 = Debug|x64
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Debug|x86.Build.0 = Debug|Win32
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Release|x64.ActiveCfg = Release|x64
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Release|x64.Build.0 = Release|x64
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Release|x86.ActiveCfg = Release|Win32
+		{E2042801-4BDA-48CF-9E7E-8004F6EBD9A4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8258985-9624-4199-A533-7A5DCBA1F5D8}
+	EndGlobalSection
+EndGlobal
