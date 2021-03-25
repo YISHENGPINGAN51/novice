@@ -1,0 +1,3 @@
+﻿  test.c
+C:\Users\Administrator\Desktop\VS2019_FYL\test2021_03_25\test2021_03_25\test.c(60): warning C4716: “sub”: 必须返回一个值
+  test2021_03_25.vcxproj -> C:\Users\Administrator\Desktop\VS2019_FYL\test2021_03_25\Debug\test2021_03_25.exe
