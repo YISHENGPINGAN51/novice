@@ -29,31 +29,31 @@ struct PeoInfo
 	char addr[MAX_ADDR];
 };
 
-//Í¨Ñ¶Â¼ÀàĞÍ
+//é€šè®¯å½•ç±»å‹
 struct Contact
 {
-	struct PeoInfo data[MAX];//´æ·Å1000¸öĞÅÏ¢
-	int size;//¼ÇÂ¼µ±Ç°ÒÑ¾­ÓĞµÄÔªËØ¸öÊı
+	struct PeoInfo data[MAX];//å­˜æ”¾1000ä¸ªä¿¡æ¯
+	int size;//è®°å½•å½“å‰å·²ç»æœ‰çš„å…ƒç´ ä¸ªæ•°
 };
 
-//ÉùÃ÷º¯Êı
-//³õÊ¼»¯Í¨Ñ¶Â¼µÄº¯Êı
+//å£°æ˜å‡½æ•°
+//åˆå§‹åŒ–é€šè®¯å½•çš„å‡½æ•°
 void InitContact(struct Contact* ps);
 
-//Ôö¼ÓÒ»¸öĞÅÏ¢µ½Í¨Ñ¶Â¼
+//å¢åŠ ä¸€ä¸ªä¿¡æ¯åˆ°é€šè®¯å½•
 void AddContact(struct Contact* ps);
 
-//´òÓ¡Í¨Ñ¶Â¼ÖĞµÄĞÅÏ¢
+//æ‰“å°é€šè®¯å½•ä¸­çš„ä¿¡æ¯
 void ShowContact(const struct Contact* ps);
 
-//É¾³ıÖ¸¶¨µÄÁªÏµÈË
+//åˆ é™¤æŒ‡å®šçš„è”ç³»äºº
 void DelContact(struct Contact* ps);
 
-//²éÕÒÖ¸¶¨µÄÈËµÄĞÅÏ¢
+//æŸ¥æ‰¾æŒ‡å®šçš„äººçš„ä¿¡æ¯
 void SearchContact(const struct Contact* ps);
 
-//ĞŞ¸ÄÖ¸¶¨µÄÁªÏµÈË
+//ä¿®æ”¹æŒ‡å®šçš„è”ç³»äºº
 void ModifyContact(struct Contact* ps);
 
-//ÅÅĞòÍ¨Ñ¶Â¼ÄÚÈİ
-SortContact(struct Contact* ps);
+//æ’åºé€šè®¯å½•å†…å®¹
+void SortContact(struct Contact* ps);
