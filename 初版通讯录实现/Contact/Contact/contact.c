@@ -148,5 +148,5 @@ void ModifyContact(struct Contact* ps)
 
 void SortContact(struct Contact* ps)
 {
-	//暂时为空，还未设计
+	printf("该功能还在设计中，暂时无法使用\n");
 }
